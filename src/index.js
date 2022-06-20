@@ -17,6 +17,20 @@ const salario = {
   marzo: 2314
 };
 
+const caramelo = {
+  nombre: "Cekas",
+  propiedades: {
+    _nombre: 1,
+    _valor: 7
+  }
+};
+
+//DEVOLVER OBJETO CON PROPIEDADES COMO ARRAY
+//OBJECT.ASSIGN
+console.log(Object.assign(caramelo, caramelo["propiedades"]));
+
+console.log(delete caramelo.propiedades);
+
 //OBJECT.KEYS
 //yo este metodo lo suelo usar
 // para medir la longitud de un ubjeto por ejemplo
