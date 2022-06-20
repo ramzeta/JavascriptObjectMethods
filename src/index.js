@@ -45,3 +45,5 @@ Object.entries(persona).forEach((par) => {
     persona[clave] = valor.toUpperCase();
   }
 });
+
+console.log(persona);
